@@ -36,7 +36,7 @@ const guessGame = (min = 1, max = 2) => {
         
         let randomNumber = getRandomNum(max, min);
         
-        console.log(userName, randomNumber, stage, max)
+        // console.log(userName, randomNumber, stage, max)
         
         //prompts for number
         userGuess = Number(prompt(`Input number between(${min}.0-${max}.0)`));
